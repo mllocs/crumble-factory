@@ -1,0 +1,21 @@
+{
+  "name": "crumble-factory",
+  "version": "0.1.0",
+  "description": "Simple library to draw crumbles on the web. Depends on Raphael.",
+  "main": "crumble-factory.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mllocs/crumble-factory.git"
+  },
+  "keywords": [
+    "crumble",
+    "raphael",
+    "svg"
+  ],
+  "author": "Màxim Colls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mllocs/crumble-factory/issues"
+  },
+  "homepage": "https://github.com/mllocs/crumble-factory"
+}

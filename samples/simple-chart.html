@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Crumble Factory</title>
+  </head>
+  <body>
+    <div id='simple-chart'></div>
+    <script src='../vendor/raphael-min-2.1.2.js'></script>
+    <script src='../crumble-factory.js'></script>
+    <script>
+      CrumbleFactory.create({
+        container: document.getElementById('simple-chart')
+      , colors: ['blue', 'red']
+      , width        : 790
+      , height       : 400
+      , valuesy      : [[4, 3, 3, 8, 3, 5, 5], [3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2]]
+      , colors       : ['blue', 'red', 'orange']
+      , shades       : true
+      , shade_colors : ['blue', 'red', 'orange']
+      , padding      : 50
+      , bottom_value : 0
+      , segments     : 3
+      });
+    </script>
+  </body>
+</html>
