@@ -366,7 +366,7 @@
   CrumbleFactory = {};
 
   /**
-   * Creates a Cronut
+   * Creates a Crumble
    *
    * @param  {Object} options
    */
